@@ -1,0 +1,29 @@
+{
+    "name": "datoscz/mapy.cz-geocoder",
+    "description": "Unofficial PHP geocoder using mapy.cz public API",
+    "type": "library",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Jan Drábek",
+            "email": "me@jandrabek.cz"
+        }
+    ],
+    "require": {
+        "php":"~7.1",
+        "ext-gd":"*"
+    },
+    "autoload": {
+        "psr-4": {
+            "DATOSCZ\\MapyCzGeocoder\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DATOSCZ\\MapyCzGeocoder\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7"
+    }
+}

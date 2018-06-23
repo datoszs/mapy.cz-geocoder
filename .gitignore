@@ -1,0 +1,5 @@
+# IDE related stuff
+.idea/
+
+# Composer stuff
+vendor/
